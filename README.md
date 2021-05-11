@@ -1,15 +1,13 @@
 <p align="center">
   <img src="./src/assets/images/icons/company-name-white.png" alt="logo" width="60%">
 
-  <h3 align="center">Pharma's League - Verifier Repository</h3>
+  <h3 align="center">RippleFund - Verifier Repository</h3>
 
   <p align="center">
-    Greater Southeast Asia's Trusted Drug Marketplace
+    MAS-Approved Singapore Crowdfunding Platform
   </p>
 
   <p align="center">
-    <a href="#roadmap"><strong>View Figma Prototypes</strong></a>
-    ·
     <a href="#getting-started"><strong>Run Locally</strong></a>
   </p>
 </p>
@@ -17,7 +15,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-verifier-repostiory">About Verifier Repository</a></li>
+    <li><a href="#about-the-verifier-repostiory">About The Verifier Repository</a></li>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
@@ -38,39 +36,26 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-## About Verifier Repository
+## About The Verifier Repository
 
-The Verifier Repository represents the Pharma's League marketplace - a trusted platform for buying and selling drugs with the use of Affinidi's veriable credentials.
+The **Verifier Repository** is the actual RippleFund platform.
 
-As of now, the current implementation is a simple admin dashboard for Pharma's League's administrators to verify resellers to be able to sell items on the marketplace.
+The current implementation of RippleFund is a **web GUI** for RippleFund admins and KYC analysts to view the list of startups approved for crowdfunding by The Monetary Authority of Singapore (MAS) or Singapore Fintech Association (SFA).
 
-In the future, we would like to build an e-commerce interface as well as buyer and seller authentication. This is to faciliate a functioning marketplace for the buying and selling of drugs to take place on the platform.
+In the future, we would like to build an actual crowdfunding platform like Kickstarter, Indiegogo and Crowdfunding to facilitate crowdfunds in Singapore for both startups and potential crowdfunding backers.
+
+#### Rise in Crowdfunding Scams
+
+
+#### Singapore's Startup Ecosystem
+
+
+#### Promoting Enterpreneurship and Innovation in Singapore
+
 
 ## About The Project
 
-Pharma's League uses Affinidi's verifiable credentials to build a unified and trusted marketplace to combat the massive online trade in counterfeit pharmaceuticals.
-
-#### Rise in Couterfeit Pharmaceuticals
-
-<p>The ongoing COVID-19 pandemic and the fast-paced world of e-commerce has taken the acceleration of selling pharmaceuticals online to the next level.</p>
-<p>Though 60% of pharmaceutical brands have seen an increase of revenue from their online business, they also have suffered an increase of 67% in online counterfeits as a result. WHO estimates that counterfeit medicines worth 89 billion USD are traded annually.</p> 
-<p>Multiple news articles have been published about the increasingly prevalent issue:</p>
-
-<p align="center">
-<img src="./src/assets/images/icons/news-pharma-fakes.png" alt="logo" width="80%" align="center">
-</p>
-</div>
-
-#### Affected Communities
-<p>Counterfeit drugs affect people from poor, underprivileged communities most, where self-medication is most common.</p>
-<p>Half of the deaths from the current opioid crisis were from the synthetic heroin fentanyl, which was reported to contain counterfeit medications.</p>
-<p>Fake COVID-19 vaccines have been identified in Mexico, Poland, and many other countries.</p>
-
-
-#### Pharma's League's Mission
-
-<p>We aim to prevent further harm caused towards these communities. This is done by offering a single source of truth for the purchase and reselling of drugs online, where resellers have to be authorized by respective pharmas to resell their drugs. The guarantee of trust between buyers and sellers would also enforce a more efficient pharma market.</p>
+RippleFund uses Affinidi's verifiable credentials to build a trusted crowdfunding platform based in Singapore. 
 
 ### Issuer-Holder-Verifier Flow
 
@@ -91,7 +76,7 @@ Pharma's League uses Affinidi's verifiable credentials to build a unified and tr
 
 #### Generate Affinidi API key
 
-1. Go to apikey.affinidi.com
+1. Go to [Affinidi's developer site](apikey.affinidi.com)
 2. Register for an account
 3. Store `API Key` and `API Key Hash` safely
 
@@ -118,11 +103,7 @@ REACT_APP_WALLET_URL=http://localhost:3001
 
 #### Sequence
 
-Run the [Issuer Repository](https://github.com/SmolLeaps/pharmas-league-issuer), then the [Holder Repository](https://github.com/SmolLeaps/pharmas-league-holder), then lastly the [Verifier Repository](https://github.com/SmolLeaps/pharmas-league-verifier).
-
-## Roadmap
-
-See the Issuer & Holder Figma prototype [here](https://www.figma.com/proto/eRlX8DKoCu7nmbqdhnoWdE/Affinidi-Hackathon?page-id=0%3A1&node-id=3%3A20&viewport=509%2C274%2C0.15831123292446136&scaling=scale-down), and the Verifier Figma prototype [here](https://www.figma.com/proto/eRlX8DKoCu7nmbqdhnoWdE/Affinidi-Hackathon?page-id=3%3A41&node-id=12%3A49&viewport=469%2C617%2C0.2826032042503357&scaling=scale-down).
+Run the [Issuer Repository](https://github.com/SmolLeaps/ripplefund-issuer), then the [Holder Repository](https://github.com/SmolLeaps/ripplefund-holder), then lastly the [Verifier Repository](https://github.com/SmolLeaps/ripplefund-verifier).
 
 ## Contributing
 
