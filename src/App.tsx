@@ -5,7 +5,7 @@ import { Nav, Navbar, Spinner } from "react-bootstrap";
 import Home from "./containers/Home";
 import Dashboard from "./containers/Dashboard";
 import MessageListener from "./containers/MessageListener";
-import companyNameLogo from './assets/images/icons/company-name.png';
+import companyNameLogo from "./assets/images/icons/company-name.png";
 
 const NavbarButtons = () => {
   const { loading, authenticated, signOut } = useAuthentication();
@@ -58,9 +58,9 @@ const AppBody = () => {
 
 const App: FC = () => (
   <div className="App">
-    <Navbar collapseOnSelect className='navbar bg-orange' variant="dark">
+    <Navbar collapseOnSelect className="navbar bg-orange" variant="dark">
       <Navbar.Brand>
-        <img src={companyNameLogo} className='logo-name' alt='logo'/>
+        <img src={companyNameLogo} className="logo-name" alt="logo" />
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
@@ -68,11 +68,11 @@ const App: FC = () => (
           <Nav.Link href="/"></Nav.Link>
         </Nav>
         <Nav>
-          <NavbarButtons/>
+          <NavbarButtons />
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-    <div className='body'>
+    <div className="body">
       <AppBody />
     </div>
   </div>

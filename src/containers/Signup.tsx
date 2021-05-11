@@ -1,11 +1,11 @@
 import React, { FC, useState } from "react";
 import { useAuthentication } from "./Authentication";
 import { Button, Form, FormControl } from "react-bootstrap";
-import { signup } from '../services/apiService';
+import { signup } from "../services/apiService";
 
 interface IProps {
-  children?: React.ReactNode
-  setShowSignUp: any
+  children?: React.ReactNode;
+  setShowSignUp: any;
 }
 const Signup: FC<IProps> = ({ setShowSignUp }) => {
   const { loading } = useAuthentication();
@@ -16,18 +16,20 @@ const Signup: FC<IProps> = ({ setShowSignUp }) => {
 
   async function handleSignup() {
     if (!isCheckboxChecked) {
-      return alert('Please agree with the terms and conditions before you sign up.')
+      return alert(
+        "Please agree with the terms and conditions before you sign up."
+      );
     }
 
     if (password !== confirmPassword) {
-      return alert('Passwords do not match.')
+      return alert("Passwords do not match.");
     }
 
     try {
       const token = await signup(username, password);
 
-      if (token){
-        alert('Account has been created. Please sign in.');
+      if (token) {
+        alert("Account has been created. Please sign in.");
         setShowSignUp(false);
       }
     } catch (err) {
@@ -36,11 +38,12 @@ const Signup: FC<IProps> = ({ setShowSignUp }) => {
   }
 
   return (
-    <div className='Login'>
-      <div className='Form'>
-        <h1 className='Title'>Verifier Sign Up</h1>
-        <p className='Info'>
-          Sign up as a Verifier to request and receive credentials for transactions!
+    <div className="Login">
+      <div className="Form">
+        <h1 className="Title">Verifier Sign Up</h1>
+        <p className="Info">
+          Sign up as a Verifier to request and receive credentials for
+          transactions!
         </p>
 
         <Form style={{ width: 280 }}>
@@ -72,13 +75,13 @@ const Signup: FC<IProps> = ({ setShowSignUp }) => {
             />
           </Form.Group>
 
-          <Form.Group controlId='checkbox'>
+          <Form.Group controlId="checkbox">
             <Form.Check
-                className='Signup-Checkbox'
-                type='checkbox'
-                checked={isCheckboxChecked}
-                onChange={() => setCheckboxChecked(true)}
-                label='I accept the terms and conditions'
+              className="Signup-Checkbox"
+              type="checkbox"
+              checked={isCheckboxChecked}
+              onChange={() => setCheckboxChecked(true)}
+              label="I accept the terms and conditions"
             />
           </Form.Group>
 
@@ -88,7 +91,6 @@ const Signup: FC<IProps> = ({ setShowSignUp }) => {
         </Form>
       </div>
     </div>
-    
   );
 };
 

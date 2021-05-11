@@ -20,8 +20,10 @@ export default {
   env: decodeEnv(process.env.REACT_APP_ENVIRONMENT || process.env.NODE_ENV),
   apiKey: process.env.REACT_APP_API_KEY as string,
   apiKeyHash: process.env.REACT_APP_API_KEY_HASH as string,
-  wallet_url: process.env.REACT_APP_WALLET_URL || 'http://localhost:3001',
+  wallet_url: process.env.REACT_APP_WALLET_URL || "http://localhost:3001",
   messagesBaseUrl:
     process.env.REACT_APP_MESSAGES_BASE_URL ||
-    `https://affinidi-messages.${decodeEnv(process.env.REACT_APP_ENVIRONMENT || process.env.NODE_ENV)}.affinity-project.org`,
+    `https://affinidi-messages.${decodeEnv(
+      process.env.REACT_APP_ENVIRONMENT || process.env.NODE_ENV
+    )}.affinity-project.org`,
 };
