@@ -48,14 +48,24 @@ In the future, we would like to build an actual crowdfunding platform like Kicks
 
 RippleFund uses Affinidi's verifiable credentials to build a trusted crowdfunding platform based in Singapore. 
 
-#### Rise in Crowdfunding Scams
-
-
 #### Singapore's Startup Ecosystem
 
+Singapore is ranked among the top 20 startup ecosystems globally. The government offers business-incubating infrastructure, tax incentives, cash grants and financing schemes to countless ventures. 
 
-#### Promoting Enterpreneurship and Innovation in Singapore
+With financing being generally the largest challenge in venture building, SG has been rolling out more and more initiatives to propel Singapore towards a thriving startup ecosystem; [Startup SG](https://www.startupsg.gov.sg/) was established in 2017 to unify efforts to support the startup ecosystem under its various initiatives, programmes and partner networks.
 
+#### About Crowdfunding
+
+Crowdfunding is the practice of funding a new venture by raising money from the public. It stimulates innovative projects due to its interactive nature, and at the same time, using innovation to fill the financial gap that traditional financial systems are unable to. Singapore's startup ecosystem seeks to gain from such a potent new source of capital.
+
+Though crowdfunding can make supporting and raising money for startups easier than ever, but it's not without issues. Con artists can use crowdfunding platforms to deceive donors and steal money for personal use. Or the money can be raised with the best intentions, but not end up used for its stated purpose.
+
+#### RippleFund's Missions
+
+1. To make crowdfunding accessible to and trusted by the public (MAS- and SAF-backed)
+2. To protect crowdfunding backers from con artists and scams
+3. To build trust and engagement among Singaporean startups and crowdfunding backers
+4. To promote entrepreneurship as well as innovative methods of capital raising in Singapore
 
 ### Issuer-Holder-Verifier Flow
 
