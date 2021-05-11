@@ -58,7 +58,7 @@ const AppBody = () => {
 
 const App: FC = () => (
   <div className="App">
-    <Navbar collapseOnSelect className='navbar bg-orange'>
+    <Navbar collapseOnSelect className='navbar bg-orange' variant="dark">
       <Navbar.Brand>
         <img src={companyNameLogo} className='logo-name' alt='logo'/>
       </Navbar.Brand>
