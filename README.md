@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/assets/images/icons/company-name-white.png" alt="logo" width="60%">
+  <img src="./src/assets/images/icons/company-name-white.png" alt="logo" width="30%">
 
   <h3 align="center">RippleFund - Verifier Repository</h3>
 
@@ -44,6 +44,10 @@ The current implementation of RippleFund is a **web GUI** for RippleFund admins 
 
 In the future, we would like to build an actual crowdfunding platform like Kickstarter, Indiegogo and Crowdfunding to facilitate crowdfunds in Singapore for both startups and potential crowdfunding backers.
 
+## About The Project
+
+RippleFund uses Affinidi's verifiable credentials to build a trusted crowdfunding platform based in Singapore. 
+
 #### Rise in Crowdfunding Scams
 
 
@@ -52,10 +56,6 @@ In the future, we would like to build an actual crowdfunding platform like Kicks
 
 #### Promoting Enterpreneurship and Innovation in Singapore
 
-
-## About The Project
-
-RippleFund uses Affinidi's verifiable credentials to build a trusted crowdfunding platform based in Singapore. 
 
 ### Issuer-Holder-Verifier Flow
 
